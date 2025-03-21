@@ -64,7 +64,7 @@ img{
     width:25%;
     /* debug */
     border: 1px solid black;
-    /* justify-items: end;  da chiedere come allineare verso il fondo*/
+   text-align: end;
 }
 
 /* main */
@@ -81,7 +81,7 @@ img{
     margin: 0 auto;
     /* debug */
     border: 1px solid white;
-    max-height: 70%;
+    height: 400px;
 }
 
 .main-container{
@@ -100,19 +100,20 @@ img{
 
 .white-card-1{
     display: flex;
-    height: 300px;
+    flex-direction: column;
     max-width: 80%;
-    margin: 0 auto;
 }
 
 .white-card-left{
     max-width: 70%;
     background-color: rgb(16, 177, 252);
+    height: 300px;
 }
 
 .white-card-right{
     max-width: 30%;
     background-color: pink;
+    height: 300px;
 }
 
 /* FINE PRIMA WHITE CARD */
@@ -148,9 +149,10 @@ img{
 
 .white-1{
     background-color: white;
-    height: 4000px;
+    height: 400px;
     /* debug */
     border: 1px solid black;
+    margin: 0 auto;
 }
 
 .white-card-1{
@@ -174,64 +176,72 @@ img{
 /* INIZIO GREY BOX */
 .grey-box{
     background-color: rgb(95, 92, 92);
-    height: 400px;
+    height: 700px;
+    padding-top: 100px;
     /* debug */
     border: 1px solid black;
 }
 
 .text-green-box{
     max-width: 70%;
+    margin: 0 auto;
     /* debug */
     background-color: green;
     border: 1px solid black;
+    height: 500px;
 }
 
 /* INIZIO FOOTER */
 /* FOOTER CON COLONNE */
 .first-black-footer{
     background-color: rgb(0, 0, 0);
-    height: 500px;
-    padding: 35px;
+    height: 650px;
+    padding: 75px;
 }
 
 .columns-box{
     display: flex;
-    flex-direction: column;
+    height: 500px;
 }
 
 .big-column{
     width: 35%;
     /* debug */
-    border: 1px solid black;
+    border: 1px solid rgb(255, 255, 255);
     background-color: salmon;
+    height: 500px;
 }
 
 .small-column{
     /* debug */
-    background-color: rgb(69, 69, 169);
-    border: 1px solid black;
+    background-color: rgb(68, 235, 235);
+    border: 1px solid rgb(255, 255, 255);
+    height: 500px;
+    flex-grow: 1;
 
 }
 
 .second-black-footer{
     background-color: rgb(0, 0, 0);
-    height: 500px;
+    height: 150px;
     padding: 35px;
-    margin-top: 15px;
+    margin-top: 3px;
 }
 
 .footer-banner{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: aqua;
+    height: 80px ;
 }
 
 .logo-footer{
-    background-color: aqua;
+    background-color: rgb(255, 169, 48);
     padding: 5px;
 }
 
 .bottone{
-    background-color: aqua;
+    background-color: rgb(255, 169, 48) ;
     padding: 5px;
 }
