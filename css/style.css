@@ -23,6 +23,7 @@ img{
     margin: 0 auto;
     /* specifiche flex */
     display: flex;
+    align-items: center;
     background-color: orange;
 }
 
@@ -43,11 +44,17 @@ img{
 
 
 .different-links{
-    text-decoration: none;
+   
     list-style-type: none;
     display: flex;
-    flex-direction: column;
+    flex: wrap;
+    
 
+}
+
+.list-link{
+    margin: 5px;
+    text-decoration: none;
 }
 
 .login{
@@ -212,5 +219,15 @@ img{
 .footer-banner{
     display: flex;
     align-items: center;
-    
+    justify-content: space-between;
+}
+
+.logo-footer{
+    background-color: aqua;
+    padding: 5px;
+}
+
+.bottone{
+    background-color: aqua;
+    padding: 5px;
 }
