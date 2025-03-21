@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 img{
@@ -44,16 +45,18 @@ img{
 
 
 .different-links{
-   
+    text-decoration: none;
     list-style-type: none;
     display: flex;
     flex: wrap;
+    justify-content: center;
     
 
 }
 
 .list-link{
-    margin: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
     text-decoration: none;
 }
 
@@ -61,6 +64,7 @@ img{
     width:25%;
     /* debug */
     border: 1px solid black;
+    /* justify-items: end;  da chiedere come allineare verso il fondo*/
 }
 
 /* main */
