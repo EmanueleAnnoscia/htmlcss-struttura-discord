@@ -48,7 +48,7 @@ img{
     text-decoration: none;
     list-style-type: none;
     display: flex;
-    flex: wrap;
+    flex-wrap: wrap;
     justify-content: center;
     
 
@@ -85,7 +85,7 @@ img{
 }
 
 .main-container{
-    max-width: 60%;
+    max-width: 80%;
     margin: 0 auto;
 }
 
@@ -93,27 +93,32 @@ img{
 
 .white-1{
     background-color: white;
-    height: 400px;
-    /* debug */
-    border: 1px solid black;
+    height: 450px;    
+    padding: 45px;
+    max-width: 100%;
 }
 
 .white-card-1{
     display: flex;
+    height:400px;
     flex-direction: column;
-    max-width: 80%;
+    flex-wrap: wrap;
+    width:80%;
 }
 
 .white-card-left{
     max-width: 70%;
     background-color: rgb(16, 177, 252);
-    height: 300px;
+    height: 400px;
+    border: 1px solid black;
+    
 }
 
 .white-card-right{
     max-width: 30%;
     background-color: pink;
-    height: 300px;
+    height: 400px;
+    border: 1px solid black;
 }
 
 /* FINE PRIMA WHITE CARD */
@@ -121,26 +126,30 @@ img{
 
 .grey-1{
     background-color: rgb(95, 92, 92);
-    height: 400px;
-    /* debug */
-    border: 1px solid black;
+    height: 450px;    
+    padding: 45px;
 }
 
 .grey-card-1{
     display: flex;
-    height: 300px;
-    max-width: 80%;
-    margin: 0 auto;
+    height:400px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 80%;
 }
 
 .grey-card-left{
     max-width: 30%;
     background-color: pink;
+    height: 400px;
+    border: 1px solid black;
 }
 
 .grey-card-right{
     max-width: 70%;
     background-color: rgb(16, 177, 252);
+    height: 400px;
+    border: 1px solid black
 }
 
 /* FINE PRIMA GREY CARD */
