@@ -91,6 +91,7 @@ img{
     background-color: white;
     height: 450px;    
     padding: 45px;
+    margin: 0 auto;
     
 }
 
@@ -100,12 +101,13 @@ img{
     flex-direction: column;
     flex-wrap: wrap;
     max-width: 80%;
+    width: 650px;
+    margin: 0 auto;
     justify-content: center;
-    
-}
+}   
 
 .white-card-left{
-    max-width: 70%;
+    width: 70%;
     background-color: rgb(16, 177, 252);
     height: 400px;
     border: 1px solid black;
@@ -113,7 +115,7 @@ img{
 }
 
 .white-card-right{
-    max-width: 30%;
+    width: 30%;
     background-color: pink;
     height: 400px;
     border: 1px solid black;
@@ -126,27 +128,31 @@ img{
     background-color: rgb(95, 92, 92);
     height: 450px;    
     padding: 45px;
+    margin: 0 auto;
     
 }
 
 .grey-card-1{
     display: flex;
-    height:400px;
+    height:300px;
     flex-direction: column;
     flex-wrap: wrap;
     max-width: 80%;
+    width: 650px;
+    margin: 0 auto;
     justify-content: center;
+    margin-top: 20px;
 }
 
 .grey-card-right{
-    max-width: 70%;
+    width: 70%;
     background-color: rgb(16, 177, 252);
     height: 400px;
     border: 1px solid black;
 }
 
 .grey-card-left{
-    max-width: 30%;
+    width: 30%;
     background-color: pink;
     height: 400px;
     border: 1px solid black;
