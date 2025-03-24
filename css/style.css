@@ -241,7 +241,8 @@ a {
     background-color: rgb(68, 235, 235);
     border: 1px solid rgb(255, 255, 255);
     height: 500px;
-    flex-grow: 1;
+    /* flex-grow: 1; */
+    width: calc(70% / 4);
 
 }
 
