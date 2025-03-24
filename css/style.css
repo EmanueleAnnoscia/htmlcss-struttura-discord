@@ -260,12 +260,15 @@ a {
     height: 80px ;
 }
 
-.logo-footer{
+.background-footer{
     background-color: rgb(255, 169, 48);
+}
+
+.logo-footer{
+    
     padding: 5px;
 }
 
 .bottone{
-    background-color: rgb(255, 169, 48) ;
     padding: 5px;
 }
