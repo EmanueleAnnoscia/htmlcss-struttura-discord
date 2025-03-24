@@ -77,7 +77,7 @@ a {
     background-color: blue;    
     padding: 40px 0px;
     /* da togliere una volta presente contenuto */
-    height: 500px;
+    /* height: 500px; */
 }
 
 .text-box{
@@ -97,7 +97,7 @@ a {
     background-color: white;  
     padding: 45px;
     margin: 0 auto;
-    height: 450px;
+    /* height: 450px; */
 }
 
 .white-card-1{
@@ -109,7 +109,7 @@ a {
     margin: 0 auto;
     justify-content: center;
     /* da togliere una volta presente contenuto */
-    height:400px;
+    /* height:400px; */
 }   
 
 .white-card-left{
@@ -135,7 +135,7 @@ a {
 
 .grey-1{
     background-color: rgb(95, 92, 92);
-    height: 450px;    
+    /* height: 450px;     */
     padding: 45px;
     margin: 0 auto;
     
@@ -150,7 +150,7 @@ a {
     /* width: 650px; */
     margin: 0 auto;
     justify-content: center;
-    margin-top: 20px;
+    /* margin-top: 20px; */
 }
 
 .grey-card-right{
