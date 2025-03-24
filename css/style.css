@@ -11,6 +11,10 @@ img{
     max-width:100%;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* HEADER */
 .header{
     background-color: aqua;
@@ -45,7 +49,6 @@ img{
 
 
 .different-links{
-    text-decoration: none;
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
